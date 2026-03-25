@@ -390,7 +390,7 @@ document.getElementById("visitForm").addEventListener("submit", function(e){
     thoigian: new Date().toLocaleString()
   };
 
-  fetch("https://script.google.com/macros/s/AKfycbzsFGlYjqyJsC0jj6pURy0BmnY0osUzcSmTvfnmWzvviM9DqSBWg56dfAYx4XWhJ9o3/exec", {
+  fetch("https://script.google.com/macros/s/AKfycbytLFTbl7FqN89nRrMVCgDPIXpj4rrW0xjzQ_8JaYsvVrcv25y0qeXCGSddEBm2qjJ7/exec", {
     method: "POST",
     body: JSON.stringify(data)
   })
@@ -421,7 +421,7 @@ if (!c) {
     return;
 }
 
-fetch(`https://script.google.com/macros/s/AKfycbzsFGlYjqyJsC0jj6pURy0BmnY0osUzcSmTvfnmWzvviM9DqSBWg56dfAYx4XWhJ9o3/exec?cccd=${c}`)
+fetch(`https://script.google.com/macros/s/AKfycbytLFTbl7FqN89nRrMVCgDPIXpj4rrW0xjzQ_8JaYsvVrcv25y0qeXCGSddEBm2qjJ7/exec?cccd=${c}`)
 .then(r => r.json())
 .then(d => {
 
